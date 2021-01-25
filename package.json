@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvincorde/quiz-app.git"
+  },
+  "author": "Calvin Corde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvincorde/quiz-app/issues"
+  },
+  "homepage": "https://github.com/calvincorde/quiz-app#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
