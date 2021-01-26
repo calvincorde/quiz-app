@@ -1,3 +1,9 @@
+@import "CSS/cards.css";
+@import "CSS/intro.css";
+@import "CSS/profile.css";
+@import "CSS/footer.css";
+@import "CSS/bookmarks.css";
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -23,22 +29,6 @@ h3 {
     font-weight: 500;
 }
 
-p {
-    font-family: oswald;
-    font-weight: 200;
-}
-
-button {
-    border-radius: 20px;
-    border: none;
-    margin: 10px 20px;
-    padding: 10px 10px;
-    background-color: orange;
-    color: black;
-    box-shadow: 0px 0px 10px silver;
-    font-family: oswald;
-    font-size: medium;
-}
 
 
 header {
@@ -63,164 +53,8 @@ main {
     margin-bottom: 120px;
 }
 
-.intro_grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr 1fr;
-    grid-gap: 10px;
-    margin: 400px 60px 250px 60px;
-    justify-content: center;
-}
-
-.intro_grid h2 {
-    font-size: 80px;
-    line-height: 85px;  
-}
 
 
 
 
-.card {
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 4;
-    background-color: rgba(211, 211, 211, 0.42);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 40px;
-}
-
-.card__headline {
-    font-family: oswald;
-    font-weight: 500;
-    color: orange;
-    line-height: 30px;
-}
-
-.card__question {
-    font-family: oswald;
-    font-weight: 200;
-}
-
-.card__button {
-    border-radius: 20px;
-    border: none;
-    margin: 10px 20px;
-    padding: 10px 10px;
-    background-color: orange;
-    color: black;
-    box-shadow: 0px 0px 10px silver;
-    font-family: oswald;
-    font-size: medium;
-}
-
-.card__taglist {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    margin: 10px 20px;
-    padding: 0;
-    list-style: none;
-    font-family: oswald;
-    font-weight: 600;
-    color: gray;
-}
-
-
-
-
-
-.q_box_grid {
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 4;
-    background-color: rgba(211, 211, 211, 0.42);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 40px;
-}
-
-
-.q_box_grid ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    margin: 10px 20px;
-    padding: 0;
-}
-
-.q_box_grid li {
-    list-style: none;
-    font-family: oswald;
-    font-weight: 600;
-    color: gray;
-}
-
-
-
-
-.profile_1 {
-    display: grid;
-    grid-template-columns: 1 fr;
-    grid-template-rows: 4fr 1fr 1fr;
-    justify-content: center;
-    background-color: rgba(211, 211, 211, 0.42);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 120px 40px 20px 40px;
-}
-
-.profile_1 img {
-    max-height: 400px;
-    max-width: 300px;
-    margin-bottom: 20px;
-}
-
-.profile_score {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    justify-items: center;
-    font-family: oswald;
-
-}
-
-.bookmarks_intro {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: 2fr 1fr;
-    margin: 100px 50px 0px 50px;
-}
-
-
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    grid-gap: 10px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px silver;
-    background-color: orange;
-    scale: 0.8;
-}
-
-.navigation img {
-    max-height: 30px;
-}
-
-.navi_active {
-    scale: 1.5;
-}
 
