@@ -60,7 +60,7 @@ header {
 
 
 main {
-    margin-top: 0;
+    margin-bottom: 120px;
 }
 
 .intro_grid {
@@ -86,6 +86,10 @@ main {
     border-radius: 20px;
     padding: 30px;
     margin: 40px;
+}
+
+.q_box_grid p::before {
+    src: ""../img/quotation_marks.svg";
 }
 
 .q_box_grid ul {
