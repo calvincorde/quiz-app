@@ -4,17 +4,18 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     margin: 400px 60px 250px 60px;
     justify-content: center;
 }
 
 .intro__headline {
+    font-family: DM Serif Display;
+    color: #FF7D19;
     font-size: 80px;
-    line-height: 85px;  
+    line-height: 4rem;  
 }
 
 .intro__text {
-    font-family: oswald;
-    font-weight: 200;
+    font-family: roboto;
 }
