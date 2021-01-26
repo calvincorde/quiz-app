@@ -78,6 +78,59 @@ main {
 }
 
 
+
+
+.card {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    background-color: rgba(211, 211, 211, 0.42);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px;
+}
+
+.card__headline {
+    font-family: oswald;
+    font-weight: 500;
+    color: orange;
+    line-height: 30px;
+}
+
+.card__question {
+    font-family: oswald;
+    font-weight: 200;
+}
+
+.card__button {
+    border-radius: 20px;
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color: orange;
+    color: black;
+    box-shadow: 0px 0px 10px silver;
+    font-family: oswald;
+    font-size: medium;
+}
+
+.card__taglist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin: 10px 20px;
+    padding: 0;
+    list-style: none;
+    font-family: oswald;
+    font-weight: 600;
+    color: gray;
+}
+
+
+
+
+
 .q_box_grid {
     display: grid;
     grid-template-columns: 1;
@@ -88,9 +141,6 @@ main {
     margin: 40px;
 }
 
-.q_box_grid p::before {
-    src: ""../img/quotation_marks.svg";
-}
 
 .q_box_grid ul {
     display: grid;
