@@ -10,6 +10,7 @@
 .bookmarks__headline {
     font-size: 80px;
     line-height: 85px;  
+    color: var(--primary);
 }
 
 .bookmarks__text {

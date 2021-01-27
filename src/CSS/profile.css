@@ -20,7 +20,7 @@
 .profile__headline {
     font-family: DM Serif Display;
     font-size: 3rem;
-    color: #FF7D19;
+    color: var(--primary);
     line-height: 3rem;
     margin-bottom: 1rem;
 }

@@ -11,7 +11,7 @@
 
 .intro__headline {
     font-family: DM Serif Display;
-    color: #FF7D19;
+    color: var(--primary);
     font-size: 80px;
     line-height: 5rem;  
 }

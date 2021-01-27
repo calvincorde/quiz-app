@@ -18,6 +18,6 @@ header {
 .header__headline {
     font-family: DM Serif Display;
     font-size: 2rem;
-    color: #FF7D19;
+    color: var(--primary);
     line-height: 30px;
 }
