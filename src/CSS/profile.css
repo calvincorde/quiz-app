@@ -3,7 +3,7 @@
 .profile {
     display: grid;
     grid-template-columns: 1 fr;
-    grid-template-rows: 4fr 1fr 1fr;
+    grid-template-rows: 4fr 1.5fr 1fr;
     justify-content: center;
     background-color: rgba(211, 211, 211, 0.42);
     border-radius: 20px;
@@ -17,10 +17,19 @@
     margin-bottom: 20px;
 }
 
+.profile__headline {
+    font-family: DM Serif Display;
+    font-size: 3rem;
+    color: #FF7D19;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
 .profile__text {
     font-family: oswald;
     font-weight: 200;
 }
+
 
 .profile__score {
     display: grid;
