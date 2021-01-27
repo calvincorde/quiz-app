@@ -12,12 +12,11 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     grid-gap: 10px;
-    margin: 20px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     border-radius: 20px;
-    xbox-shadow: 0px 0px 10px silver;
-    background-color: #FF7D19;
-    scale: 0.8;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px 50px white;
+    scale: 0.9;
 }
 
 .navigation img {
