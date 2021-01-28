@@ -26,3 +26,7 @@ footer {
 .navi_active {
     scale: 1.5;
 }
+
+.navigation svg {
+    fill: var(--primary);
+}
