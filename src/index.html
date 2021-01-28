@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <h1>QUIZ APP 1.0</h1>
+        <h1 class="header__headline">QA. 1.0</h1>
     </header>
 
     <main>
-        <section class="intro_grid">  <!-- Intro -->
-            <h2>Welcome to the Quiz!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quasi.</p>
+        
+
+
+        <section class="intro">  <!-- Intro -->
+            <h2 class="intro__headline">Ready to quiz?</h2>
+            <p class="intro__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quasi.</p>
         </section>
+
+        
         
         <section>  <!-- Questions -->
-            <section class="q_box_grid">
-                <h2>Question 1</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
-                <button>Show Answer</button>
-                <ul>
+
+
+            <section class="card">
+                <h2 class="master__headline">Question 1</h2>
+                <p class="master__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
+                <button class="card__button">Show Answer</button>
+                <ul class="card__taglist">
                     <li>Mark 1</li>
                     <li>Mark 2</li>
                     <li>Mark 3</li>
@@ -30,33 +37,38 @@
                 </ul>
             </section>
 
-            <section class="q_box_grid">
-                <h2>Question 2</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
-                <button>Show Answer</button>
-                <ul>
+
+            <section class="card">
+                <h2 class="master__headline">Question 2</h2>
+                <p class="master__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
+                <button class="card__button">Show Answer</button>
+                <ul class="card__taglist">
                     <li>Mark 1</li>
                     <li>Mark 2</li>
                     <li>Mark 3</li>
                     <li>Mark 4</li>
                 </ul>
             </section>
-
-            <section class="q_box_grid">
-                <h2>Question 3</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
-                <button>Show Answer</button>
-                <ul>
+            <section class="card">
+                <h2 class="master__headline">Question 3</h2>
+                <p class="master__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
+                <button class="card__button">Show Answer</button>
+                <ul class="card__taglist">
                     <li>Mark 1</li>
                     <li>Mark 2</li>
                     <li>Mark 3</li>
                     <li>Mark 4</li>
-                </ul>
+                </ul>               
+                  <svg width="40" height="40" viewBox="0 0 512 512" class="bookmark_saved">
+                    <path d="M416.667,0H95.334c-8.284,0-15,6.716-15,15v482c0,6.067,3.655,11.536,9.26,13.858c1.856,0.769,3.805,1.142,5.737,1.142
+                    c3.903,0,7.74-1.523,10.609-4.394l150.063-150.062L406.06,507.606c4.29,4.291,10.741,5.573,16.347,3.252
+                    c5.605-2.322,9.26-7.791,9.26-13.858V15C431.667,6.716,424.952,0,416.667,0z"></path>
+                </svg>
             </section>
 
             <section class="card">
-                <h2 class="card__headline">Question 4</h2>
-                <p class="card__question">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
+                <h2 class="master__headline">Question 4</h2>
+                <p class="master__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda rerum harum repudiandae excepturi. Eius, maiores! Quaerat vel architecto magnam.</p>
                 <button class="card__button">Show Answer</button>
                 <ul class="card__taglist">
                     <li>Mark 1</li>
@@ -66,28 +78,29 @@
                 </ul>
             </section>
         </section>
+
     </main>
 
-<footer>
-    <nav class="navigation">
-        <a href="index.html" target="blank">
-            <img alt="index" src="../img/home.svg" 
-            width="50px" class="navi_active">
-        </a>
-        <a href="bookmarks.html" target="blank">
-            <img alt="bookmarks" src="../img/bookmark.svg" 
-            width="50px">
-        </a>
-        <a href="create.html" target="blank">
-            <img alt="create" src="../img/pen.svg" 
-            width="50px">
-        </a>
-        <a href="profile.html" target="blank">
-            <img alt="profile" src="../img/user.svg" 
-            width="50px">
-        </a>
-    </nav>
-</footer>  
+    <footer>
+        <nav class="navigation">
+            <a href="index.html" target="blank">
+                <img alt="index" src="../img/home.svg" 
+                width="50px" class="navi_active">
+            </a>
+            <a href="bookmarks.html" target="blank">
+                <img alt="bookmarks" src="../img/bookmark.svg" 
+                width="50px">
+            </a>
+            <a href="create.html" target="blank">
+                <img alt="create" src="../img/pen.svg" 
+                width="50px">
+            </a>
+            <a href="profile.html" target="blank">
+                <img alt="profile" src="../img/user.svg" 
+                width="50px">
+            </a>
+        </nav>
+    </footer>  
 
 </body>
 </html>
