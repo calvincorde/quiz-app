@@ -1,6 +1,6 @@
 
 .master__headline {
-    font-family: DM Serif Display;
+    font-family: 'DM Serif Display', serif;
     font-size: 3rem;
     color: var(--primary);
     line-height: 30px;
@@ -8,8 +8,15 @@
 }
 
 .master__text {
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 1.3rem;
+    margin: 0.5rem 0rem;
+}
+
+.master__text__strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     line-height: 1.3rem;
     margin: 0.5rem 0rem;
 }
