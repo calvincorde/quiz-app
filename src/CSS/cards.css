@@ -65,5 +65,7 @@
     position: absolute;
     top: -1rem;
     right: +1rem;
+    color: var(--primary);
+    font-size: 2rem;
     fill: var(--primary);
 }
