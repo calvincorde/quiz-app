@@ -5,6 +5,7 @@
 @import "./bookmarks.css";
 @import "./header.css";
 @import "./master_styles.css";
+@import "./create.css";
 
 :root {
     --primary: #FF7D19;

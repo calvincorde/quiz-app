@@ -7,6 +7,14 @@
     margin-bottom: 0.5rem;
 }
 
+.master__headline__small {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    color: rgb(171, 171, 171);
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 .master__headline_strong {
     font-family: DM Serif Display;
     color: var(--primary);
