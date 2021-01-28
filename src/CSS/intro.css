@@ -3,19 +3,8 @@
 .intro {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 4fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 20px;
     margin: 400px 60px 250px 60px;
     justify-content: center;
-}
-
-.intro__headline {
-    font-family: DM Serif Display;
-    color: var(--primary);
-    font-size: 80px;
-    line-height: 5rem;  
-}
-
-.intro__text {
-    font-family: roboto;
 }

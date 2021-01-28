@@ -13,20 +13,6 @@
     position: relative;
 }
 
-.card__headline {
-    font-family: DM Serif Display;
-    font-size: 3rem;
-    color: var(--primary);
-    line-height: 30px;
-    margin-bottom: 1rem;
-}
-
-.card__question {
-    font-family: roboto;
-    font-weight: 300;
-    line-height: 1.3rem;
-    margin: 0.5rem 0rem;
-}
 
 .card__button {
     border-radius: 15px;
@@ -36,8 +22,6 @@
     background-color: rgb(249, 249, 249);
     color: var(--primary);
     border: solid var(--primary) 0.1rem;
-    font-family: oswald;
-    font-size: medium;
     transition: all 0.4s ease-out;
 }
 
@@ -56,8 +40,6 @@
     margin: 10px 20px;
     padding: 0;
     list-style: none;
-    font-family: oswald;
-    font-weight: 600;
     color: gray;
 }
 
