@@ -4,7 +4,7 @@
     font-size: 3rem;
     color: var(--primary);
     line-height: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .master__headline_strong {
@@ -23,7 +23,7 @@
 
 .master__text__strong {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.3rem;
-    margin: 0.5rem 0rem;
+    xmargin: 0.5rem 0rem;
 }
