@@ -23,6 +23,10 @@ main {
     margin-bottom: 120px;
 }
 
+.main__container {
+    display: grid;
+    justify-items: center;
+}
 
 
 
