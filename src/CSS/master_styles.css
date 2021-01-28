@@ -3,8 +3,15 @@
     font-family: 'DM Serif Display', serif;
     font-size: 3rem;
     color: var(--primary);
-    line-height: 30px;
+    line-height: 3rem;
     margin-bottom: 1rem;
+}
+
+.master__headline_strong {
+    font-family: DM Serif Display;
+    color: var(--primary);
+    font-size: 80px;
+    line-height: 5rem;  
 }
 
 .master__text {
