@@ -40,13 +40,17 @@
     color: var(--primary);
     border: solid var(--primary) 0.1rem;
     transition: all 0.4s ease-out;
+    cursor: pointer;
 }
 
-.card__button:hover,
+.card__button:hover {
+    scale: 0.95;
+}
+
 .card__button:active {
     background-color: var(--primary);
     color: white;
-    xscale: 1.06;
+    scale: 1.1;
 }
 
 .card__taglist {
@@ -69,6 +73,12 @@
     font-size: 2rem;
     fill: var(--primary);
     cursor: pointer; 
+}
+
+.marked__right {
+    color: var(--primary);
+    scale: 1.5;
+    transition: all 0.5s ease-in;
 }
 
 .disabled {

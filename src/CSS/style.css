@@ -29,7 +29,7 @@ main {
     justify-items: center;
 }
 
-
-
-
+.hidden {
+    display: none;
+}
 
