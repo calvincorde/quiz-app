@@ -68,4 +68,14 @@
     color: var(--primary);
     font-size: 2rem;
     fill: var(--primary);
+    cursor: pointer; 
+}
+
+.disabled {
+    opacity: 0%;
+}
+
+.bookmark__saved__icon {
+    font-family: Font Awesome;
+    content: fas fa-bookmark;
 }
